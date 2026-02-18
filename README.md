@@ -1,11 +1,12 @@
 # Smart Ticket AI: Retrieval-Augmented Generation (RAG) Customer Support System
 
-## Project Overview
+## Overview
 This project implements an intelligent customer support automation system designed to classify tickets, detect urgency based on context, and recommend solutions using semantic search. The system addresses the limitations of traditional keyword-based support tools by utilizing Deep Learning (Transformers) and Vector Search technologies.
 
 <img width="1919" height="920" alt="Screenshot 2026-02-18 150052" src="https://github.com/user-attachments/assets/f53cd52d-da03-4975-a513-48c5fdbca3a7" />
+
 <img width="1917" height="921" alt="Screenshot 2026-02-18 150201" src="https://github.com/user-attachments/assets/cacd4b2f-0209-40f9-8647-5badf4bf4f1b" />
-*AI model correctly identifies a technical issue based on input and give suggest as a feedback via RAG.*
+FIgure 1-2: AI model correctly identifies a technical issue based on input and give suggest as a feedback via RAG.
 
 ## Key Features
 
