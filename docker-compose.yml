@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: ticket_db
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=rahasia
+      - POSTGRES_DB=ticket_system
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - ai_network
+
+volumes:
+  pgdata:
+
+networks:
+  ai_network:
+    driver: bridge

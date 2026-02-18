@@ -1,0 +1,10 @@
+pandas
+sqlalchemy
+psycopg2-binary
+python-dotenv
+plotly
+scikit-learn
+nltk
+fastapi
+uvicorn
+requests
